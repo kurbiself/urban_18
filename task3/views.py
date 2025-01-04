@@ -17,4 +17,6 @@ class CosmeticsTemplate(TemplateView):
         'mascara': 'Тушь для ресниц VIVIENNE SABO Grotesquee',
         'pomade': 'Жидкая матовая помада с плампинг-эффектом VIVIENNE SABO Volummatte',
         'pencil': 'Устойчивый гелевый карандаш для губ VIVIENNE SABO Le Grand volume',
+        'tint': 'VIVIENNE SABO Tititint',
+        'blush': ' VIVIENNE SABO Палетка румян  Naturel',
     }
