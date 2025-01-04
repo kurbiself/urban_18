@@ -12,3 +12,9 @@ class CartTemplate(TemplateView):
 
 class CosmeticsTemplate(TemplateView):
     template_name = 'third_task/cosmetics.html'
+    extra_context = {
+        'title': 'Каблучки макияж',
+        'mascara': 'Тушь для ресниц VIVIENNE SABO Grotesquee',
+        'pomade': 'Жидкая матовая помада с плампинг-эффектом VIVIENNE SABO Volummatte',
+        'pencil': 'Устойчивый гелевый карандаш для губ VIVIENNE SABO Le Grand volume',
+    }
