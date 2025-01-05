@@ -1,0 +1,45 @@
+body {
+    background-color: #212121;
+    font-family: "Comic Sans MS";
+}
+h1 {
+    color: #a894b0;
+    font-size: 40px;
+
+}
+
+p {
+font-size: 30px;
+}
+
+a {
+    color: #eee4f2;
+}
+
+ul {
+    color: #b0ebe6;
+    font-size: 25px;
+}
+
+main {
+    color: #b0ebe6;
+    font-size: 25px;
+}
+
+button {
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #424242;
+      border: none;
+      color: #eee4f2;
+      text-align: center;
+      font-size: 15px;
+      padding: 20px;
+      width: 100px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+      opacity: 0.6;
+      transition: 0.3s;
+}
+button:hover {opacity: 1}

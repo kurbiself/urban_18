@@ -1,0 +1,20 @@
+{% extends 'fourth_task/menu.html' %}
+
+{% block title %} Косметика {% endblock %}
+
+{% block pagename %}
+    Косметика
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for cosmetic in cosmetics %}
+            <li>{{cosmetic}}</li>
+            <button>Купить</button>
+        {% endfor %}
+    </ul>
+{% endblock %}
