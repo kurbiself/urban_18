@@ -17,8 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from task2.views import GetFunc, get_class
-#from task3.views import PlatformTemplate, CartTemplate, CosmeticsTemplate
+# from task3.views import PlatformTemplate, CartTemplate, CosmeticsTemplate
 from task4.views import PlatformTemplate, CartTemplate, CosmeticsTemplate
+from task5.views import sign_up_by_django, sign_up_by_html
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,4 +28,6 @@ urlpatterns = [
     path('platform/', PlatformTemplate.as_view()),
     path('platform/cart', CartTemplate.as_view()),
     path('platform/cosmetics/', CosmeticsTemplate.as_view()),
+    path('sign_up_by_django', sign_up_by_django),
+    path('sign_up_by_html', sign_up_by_html),
 ]
